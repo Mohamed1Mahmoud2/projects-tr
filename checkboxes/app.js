@@ -1,5 +1,5 @@
-const checkboxes = document.querySelectorAll(".inbox input[type='checkbox']");//use in forEach 
-// console.log(checkboxes);
+const checkboxes = document.querySelectorAll(".inbox input[type='checkbox']");
+
 let lastChecked;
 
 function handleCheck(e) {
