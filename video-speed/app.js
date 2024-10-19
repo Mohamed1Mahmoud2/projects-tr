@@ -1,15 +1,13 @@
-console.log('hi')
+
 const speedBar = document.querySelector('.speed');
 const speedNum = document.querySelector('.speed-bar');
 const video = document.querySelector('.flex');
 
-console.log(speedBar)
-console.log('###########')
-console.log(speedNum)
+
 
 
 function handelSpeed(e) {
-    ///we need to handell the div height and video speed
+    
     const y = e.pageY - this.offsetTop
     const percent = y / this.offsetHeight
     console.log(e.pageY, e.offsetY, this.offsetTop)
