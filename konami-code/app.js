@@ -1,6 +1,6 @@
-///me this is arr to push key init
+
 const pressed = [];
-///me this is streng we need done
+
 const secretCode = 'mohamed';
 
 
