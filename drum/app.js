@@ -11,8 +11,7 @@ function playSound(e) {
     key.classList.add('playing');
     audio.currentTime = 0;
     audio.play();
-    // for tested something
-    //audio.pro
+
 }
 
 const keys = Array.from(document.querySelectorAll('.key'));
